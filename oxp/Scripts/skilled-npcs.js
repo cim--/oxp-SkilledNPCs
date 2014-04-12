@@ -66,9 +66,9 @@ this.shipSpawned = function(ship) {
 			ship.accuracy = -ship.accuracy;
 		}
 		ship.accuracy += this.$baseline;
-		ship.accuracy += Math.random()*(7-gov);
-		if (ship.accuracy < (7-gov)) {
-			ship.accuracy += (7-gov)*0.75;
+		ship.accuracy += Math.random()*(gov);
+		if (ship.accuracy < (gov)) {
+			ship.accuracy += (gov)*0.75;
 		}
 		break;
 	case "escort":
