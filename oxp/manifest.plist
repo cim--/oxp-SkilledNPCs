@@ -1,0 +1,13 @@
+{
+	identifier = "oolite.oxp.cim.skilled-npcs";
+	version = "1.2";
+	title = "Skilled NPCs";
+	required_oolite_version = "1.79";
+	description = "Enables higher-quality flight AI for routine NPCs. Can be configured with OXPConfig for even more challenge.";
+	category = "Mechanics";
+	author = "cim";
+	license = "CC-BY-SA 3.0";
+	download_url = "http://compsoc.dur.ac.uk/~cim/oolite/Skilled_NPCs_1.2.oxz";
+	information_url = "http://wiki.alioth.net/index.php/Skilled_NPCs_OXP";
+	/* TODO: add OXPConfig as an Optional OXP when that's available. */
+}
